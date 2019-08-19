@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/selector"
+        android:orientation="vertical"
+        tools:context=".Detail_Directory_Activity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+
+                style="@style/DetailDirectoryStyle"
+                android:layout_width="100dp"
+
+                android:layout_height="wrap_content"
+                android:text="Name :" />
+
+            <TextView
+
+                android:id="@+id/nameof"
+                style="@style/DetailDirectoryListStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+
+                android:text="Name Of Hotel" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+
+                style="@style/DetailDirectoryStyle"
+                android:layout_width="100dp"
+
+
+                android:layout_height="wrap_content"
+                android:text="Address :" />
+
+            <TextView
+
+
+                android:id="@+id/address"
+                style="@style/DetailDirectoryListStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:text="Address" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+
+                style="@style/DetailDirectoryStyle"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+
+                android:text="Phone :" />
+
+            <TextView
+
+                android:id="@+id/phonee"
+                style="@style/DetailDirectoryListStyle"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:text="Phone" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RatingBar
+
+                android:id="@+id/ratingBarr"
+                style="?android:ratingBarStyleIndicator"
+                android:layout_width="190dp"
+                android:layout_height="43dp"
+                android:layout_gravity="center"
+                android:max="5"
+                android:numStars="5"
+                android:padding="5dp"
+                android:scaleX=".8"
+                android:scaleY=".8" />
+
+            <Button
+
+                android:id="@+id/ratebutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:text="Want to rate" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/call"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_call_green"
+                android:padding="5dp"
+                android:text="Call"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/direction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_directions_blue"
+                android:padding="5dp"
+                android:text="Direction"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+
+                style="@style/DetailDirectoryStyle"
+                android:layout_width="100dp"
+
+                android:layout_height="wrap_content"
+                android:text="Detail :" />
+
+            <TextView
+                android:id="@+id/detail"
+                style="@style/DetailDirectoryListStyle"
+                android:layout_width="match_parent"
+
+
+                android:layout_height="wrap_content"
+                android:text="Detail" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+
+                style="@style/DetailDirectoryStyle"
+                android:layout_width="100dp"
+
+                android:layout_height="wrap_content"
+                android:text="Tangline :" />
+
+            <TextView
+                android:id="@+id/tagline"
+                style="@style/DetailDirectoryListStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tagline" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+
+                style="@style/DetailDirectoryStyle"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Service Day :" />
+
+            <TextView
+                android:id="@+id/service_day"
+                style="@style/DetailDirectoryListStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Service Day" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+
+                style="@style/DetailDirectoryStyle"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Service Time :" />
+
+            <TextView
+                android:id="@+id/service_time"
+                style="@style/DetailDirectoryListStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Service Time" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+
+                style="@style/DetailDirectoryStyle"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Website :" />
+
+            <TextView
+                android:id="@+id/website"
+                style="@style/DetailDirectoryListStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" WebSite" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+
+                style="@style/DetailDirectoryStyle"
+                android:layout_width="100dp"
+
+                android:layout_height="wrap_content"
+                android:text="Email :" />
+
+            <TextView
+                android:id="@+id/emaill"
+                style="@style/DetailDirectoryStyle"
+                android:layout_width="match_parent"
+
+
+                android:layout_height="wrap_content"
+                android:text="Email" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+
+                style="@style/DetailDirectoryStyle"
+                android:layout_width="100dp"
+
+
+                android:layout_height="wrap_content"
+                android:text="Facebook :" />
+
+            <TextView
+                android:id="@+id/facebook"
+                style="@style/DetailDirectoryStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Facebook" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_for_comment_section"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/commentbox"
+                android:padding="5dp"
+                android:layout_width="250dp"
+
+                android:layout_height="60dp"
+             android:singleLine="true"
+                android:hint="Comment Here..." />
+                <Button
+                    android:layout_width="match_parent"
+                   android:layout_marginRight="10dp"
+                    android:text="Comment"
+                    android:textSize="10dp"
+                    android:id="@+id/commentbtn"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cotainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

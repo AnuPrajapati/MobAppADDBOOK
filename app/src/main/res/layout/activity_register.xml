@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_bg"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/ic_person_white"
+        android:drawablePadding="10dp"
+        android:focusable="auto"
+        android:hint="Email"
+        android:paddingLeft="15dp"
+        android:inputType="textEmailAddress"
+        android:textColor="#F6FAF6"
+        android:textColorHint="#F6FAF6" />
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/ic_person_white"
+        android:drawablePadding="10dp"
+        android:focusable="auto"
+        android:hint="Username"
+        android:paddingLeft="15dp"
+        android:inputType="textEmailAddress"
+        android:textColor="#F6FAF6"
+        android:textColorHint="#F6FAF6" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#AAAAAA" />
+
+    <EditText
+
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/ic_lock_white"
+        android:drawablePadding="20dp"
+        android:hint="Password"
+        android:paddingLeft="15dp"
+        android:text=""
+        android:textColor="#F6FAF6"
+        android:textColorHint="#F6FAF6" />
+
+    <EditText
+
+        android:id="@+id/cpassword"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/ic_lock_white"
+        android:drawablePadding="20dp"
+        android:hint="Confirm Password"
+        android:paddingLeft="15dp"
+        android:text=""
+        android:textColor="#F6FAF6"
+        android:textColorHint="#F6FAF6" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#AAAAAA" />
+
+    <TextView
+            android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="REGISTER"
+
+        android:textColor="#F6FAF6" />
+
+
+</LinearLayout>
+
